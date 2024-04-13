@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0010d41c-7c3b-4393-9c58-05afed07b4ae" name="Changes" comment="ff">
+    <list default="true" id="0010d41c-7c3b-4393-9c58-05afed07b4ae" name="Changes" comment="beta1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <updated>1712992092958</updated>
       <workItem from="1712992094027" duration="2189000" />
       <workItem from="1713002247477" duration="402000" />
-      <workItem from="1713004478441" duration="5170000" />
+      <workItem from="1713004478441" duration="7446000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <option name="closed" value="true" />
@@ -83,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713005695119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="beta1">
+      <option name="closed" value="true" />
+      <created>1713010169710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713010169710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ff" />
-    <option name="LAST_COMMIT_MESSAGE" value="ff" />
+    <MESSAGE value="beta1" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta1" />
   </component>
 </project>
