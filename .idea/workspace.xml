@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0010d41c-7c3b-4393-9c58-05afed07b4ae" name="Changes" comment="beta3">
-      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
+    <list default="true" id="0010d41c-7c3b-4393-9c58-05afed07b4ae" name="Changes" comment="queue and stack">
+      <change afterPath="$PROJECT_DIR$/src/MyMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1713004478441" duration="9122000" />
       <workItem from="1713235876860" duration="23000" />
       <workItem from="1713606973311" duration="3638000" />
-      <workItem from="1713712492656" duration="4803000" />
+      <workItem from="1713712492656" duration="6594000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <option name="closed" value="true" />
@@ -111,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713716590383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="queue and stack">
+      <option name="closed" value="true" />
+      <created>1713717917763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713717917763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,7 @@
     <MESSAGE value="beta1" />
     <MESSAGE value="beta2" />
     <MESSAGE value="beta3" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta3" />
+    <MESSAGE value="queue and stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue and stack" />
   </component>
 </project>
