@@ -3,27 +3,28 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        MyArrayList<Integer> myList = new MyArrayList<>();
+        MyArrayList<String> myList = new MyArrayList<>();
 
-        myList.add(1);
-        myList.add(2);
-        myList.add(3);
+        myList.add("Nur-Sultan");
+        myList.add("Almaty");
+        myList.add("Shymkent");
+        myList.add("Turkistan");
         printArray(myList);
 
-        myList.set(1, 20);
+        myList.set(0, "Astana");
         printArray(myList);
 
-        myList.add(1, 10);
+        myList.add(1,"Turkistan");
         printArray(myList);
 
-        myList.addFirst(0);
+        myList.addFirst("Oskemen");
         printArray(myList);
 
-        myList.addLast(4);
+        myList.addLast("Karagandy");
         printArray(myList);
 
 
-        System.out.println(myList.get(2));
+        System.out.println(myList.get(3));
 
 
         System.out.println(myList.getFirst());
@@ -32,7 +33,7 @@ public class Main {
         System.out.println(myList.getLast());
 
 
-        myList.remove(2);
+        myList.remove(6);
         printArray(myList);
 
 
@@ -44,18 +45,18 @@ public class Main {
         printArray(myList);
 
 
-        System.out.println("Check sort");
+        System.out.println("Check sorting");
         myList.sort();
         printArray(myList);
 
 
-        System.out.println(myList.indexOf(20));
+        System.out.println(myList.indexOf("Oskemen"));
 
 
-        System.out.println(myList.lastIndexOf(20));
+        System.out.println(myList.lastIndexOf("Turkistan"));
 
 
-        System.out.println(myList.exists(20));
+        System.out.println(myList.exists("Karagandy"));
 
 
         myList.clear();
@@ -65,7 +66,7 @@ public class Main {
         System.out.println(myList.size());
     }
 
-    public static void printArray(Iterable<Integer> arr) {
+    public static void printArray(Iterable<String> arr) {
         for (Object object : arr) {
             System.out.print(object + " ");
         }
